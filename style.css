@@ -1,0 +1,94 @@
+/* 1. General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* 3. Layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 4. Header */
+  header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  /* 5. Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background: #666;
+    border-radius: 5px;
+  }
+  
+  /* 6. Main Content */
+  main {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+  }
+  
+  /* 7. Sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  /* 8. Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* 9. Responsive Design */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      display: block;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+  
